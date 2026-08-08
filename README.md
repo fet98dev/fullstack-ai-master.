@@ -1,4 +1,4 @@
-# 🚀 Full Stack Web Development + AI Master 
+# 🚀 Full Stack Development + AI Master 
 
 Personal repository containing code, practical exercises, and projects developed during the Full Stack Master program.
 
