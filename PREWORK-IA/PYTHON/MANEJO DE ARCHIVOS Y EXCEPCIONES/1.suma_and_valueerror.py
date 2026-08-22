@@ -24,7 +24,6 @@ def suma():
             print("Hasta luego!")
             return
 
-
         try:
             n1 = int(n1_input)
             n2 = int(n2_input)
@@ -33,28 +32,6 @@ def suma():
         except:
             print("El dato introducido tiene que ser un numero. Intentalo de nuevo.") 
 suma()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 '''
 while True:
