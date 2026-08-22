@@ -12,7 +12,8 @@ Averigua cuántasveces aparece una palabra o frase en el texto
 #Abrir el texto.
 with open('archivo_analizar.txt') as archivo:
     contenido = archivo.read()#Leer el texto
-    num_veces = contenido.count("salpicón")#Contar el numero de veces 
+    busqueda = input("Introduce la letra o palabra que quieres buscar; ")
+    num_veces = contenido.count(busqueda)#Contar el numero de veces 
                                            #que sale una palabra o letra.
     print(num_veces)
 #La funcion .count() hace todo el trabajo.
