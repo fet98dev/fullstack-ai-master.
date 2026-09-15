@@ -15,6 +15,7 @@ class listatareas:
 
     def agregar_tarea(self):
         """Esta funcion agrega una tarea a la lista."""
+
         self.tarea = input("Introduce una tarea pendiente: ")
         self.listapendiente.append(self.tarea)
         return self.listapendiente
@@ -22,9 +23,10 @@ class listatareas:
 
     def tarea_completada(self):
         "Esta funcion marca una tarea como completada"
+
         self.tarea_terminada = input("Introduce una tarea terminada: ")
         if self.tarea_terminada in self.listapendiente:
-            self.listapendiente.remove(self.tarea_terminada)#Elimina la tarea que le he introducido
+            self.listapendiente.remove(self.tarea_terminada)
             self.tareas_realizadas.append(self.tarea_terminada)
             print(f"---> Tarea {self.tarea_terminada} marcada como completada.")
         else:
@@ -40,7 +42,10 @@ class listatareas:
         print("-------------------------------\n")
 
 
-mis_tareas = listatareas()
+
+
+#----- FLUJO DE PRUEBA --------
+mis_tareas = listatareas
 
 # 1. Agregamos 2 tareas
 mis_tareas.agregar_tarea()
